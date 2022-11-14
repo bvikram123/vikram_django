@@ -16,5 +16,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-   path('star-wars/', include('my_api.urls')),
+   path('star-war/', include('my_api.urls')),
 ]
